@@ -15,10 +15,9 @@ Nosso site na prática funciona como um site de clínica padrão, todavia não h
 
 Algumas paginas ainda estão em desenvolvimento 
 
-<div>
 ![Web 1](https://github.com/matheuszszs/Projeto-cl-nica/assets/134110416/fcd2f741-b753-42f0-a227-a99c69e310bb) 
   ![Web 2](https://github.com/matheuszszs/Projeto-cl-nica/assets/134110416/052b0454-260b-40ca-b08f-2556fb773a27)
-</div>
+
 
 ## Layout web (Mostrar um layout do site funcionando no mobile)
 
