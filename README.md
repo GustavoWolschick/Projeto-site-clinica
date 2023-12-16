@@ -9,7 +9,7 @@ Recebemos o desafio que nasceu na matéria do Colégio Ulbra São Lucas, na qual
 
 O site é uma aplicação full stack web e mobile feito durante o final do segundo semestre do curso Técnico de Informática construído durante a matéria de Projeto Aplicado a Informática I. 
 
-Nosso site na prática funciona como um site de clínica padrão, todavia não há nenhuma clínica real sendo usada para o estudo do mesmo, junto disso propósito do site é aprimorar o nosso aprendizado em relação a programação front-end tanto back-end.
+Nosso site na prática funciona como um site de clínica padrão, todavia não há nenhuma clínica real sendo usada para o estudo do mesmo, junto disso propósito do site é aprimorar o nosso aprendizado em relação a programação tanto front-end quanto back-end.
 
 ## Layout mobile (Mostrar um layout do site funcionando na web)
 
