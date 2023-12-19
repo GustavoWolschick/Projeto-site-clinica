@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    }
+}
 
 /* Barra de navegação */
 header{
@@ -22,34 +22,27 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding-right: 5%;
-   }
-
-h1{
-    font-size: 2.8em;
-    text-align: center;
-    top: 0;
-    background-color: rgb(166, 193, 243);
-    }
-header a{
-    color: blue;
-    text-decoration: none;
-    display: inline-block;
-    transition: .2s;
 }
-
-header a:hover{
-    color: #000;
-    transform: scale(1.05);
-}
-
 .linha-preta {
     border-top: 5px solid black;
     width: 100%;
   }
-
+h1{
+    font-size: 2.8em;
+    text-align: center;
+}
+#exames{
+    width: 400px;
+    height: 400px;
+}
 h2{
     font-size: 1.3em;
     text-align: center;
+}
+.imagem{
+   width: 200px;
+    height: 200px;
+    justify-content: space-between; 
 }
 .nav-logo{
     list-style: none;
@@ -58,22 +51,23 @@ h2{
 .nav-bar{
     list-style: none;
     display: flex;
-    /* background-color: rgb(166, 193, 243); */
 }
 .nav-bar li{
     padding-left: 10%;
 }
+
 a{  
     text-decoration: none;
     transition: 0.2s;
     cursor: pointer;
+    color: blue;
 }
-  /* estilização do rodapé */
-  .footer {
+.footer {
     background-color: rgb(6, 25, 90);
     padding: 55px 20px;
     text-align: center;
     color: white;
+    margin-top: 30%;
    }
 @media screen and (max-width:600px){
     header{
@@ -81,6 +75,10 @@ a{
         background-color: rgb(166, 193, 243);
         align-items: center;
     }
+    .footer {
+        padding: 20px 20px;
+        margin-top: 200%;
+       }
     #logoimg{
         width: 40px;
         height: 40px;
@@ -122,65 +120,66 @@ a{
     a{  
         text-decoration: none;
         transition: 0.2s;
+        color: blue;
     }
 
 }
 /* Conteúdo Principal */
 
-  main{
+.imagem{
+    display: absolute;
     width: 100%;
-    height: 100%;
-    background-color:  white;
-  }
-  main h1{
-    text-align: center;
-  }
-  main p{
-    text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
-    font-size: 1.2em;
-  }
-  main img{
-    padding-left: 15%;
-    padding-right: 15%;
-    width: 1200px;
-    height: 400px;
-  }
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagem img{
+    height: 500px;
+    width: 500px;
+}
+
+  .main-icons{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.main-icons li{
+    margin-left: 100px;
+    padding-top: 5%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
 
   @media screen and (max-width:600px){
-    .capa{
-        display: absolute;
-        background-color: white;
+    #exames{
+        width: 200px;
+        height: 200px;
+    }
+    .imagem{
+        display: grid;
         width: 100%;
-        height: 250px;
+        height: 1000px;
         justify-content: space-around;
+        justify-content: center;
         align-items: center;
     }
-    .mapa{
-        padding: 20px 25px;
-    }
-    .capa img{
+    .imagem img{
+        
         height: 250px;
-        width: 100%;
-        align-items: center;
+        width: 250px;
+        margin-left: -80px;
     }
-    .footer{
-        padding: 55px 20px;
+    .imagem h1{
         text-align: center;
-        margin-top: 7%;
     }
-      h3{
-        font-size: 1em;
-        text-align: center;
-      }
       main{
         width: 100%;
         height: 100%;
-     }
+        display: flex;
+      }
       main h1{
-        padding-left: 5%;
-        padding-right: 5%;
         margin-top: 50px;
         text-align: center;
       }
@@ -191,9 +190,32 @@ a{
         font-size: 0.8em;
       }
       main img{
-        padding-left: 10%;
-        padding-right: 10%;
-        width: 300px;
-        height: 75px;
+        width: 250px;
+        height: 150px;
       }
+      .main-icons{
+        list-style: none;
+        display:grid;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+        .main-icons li{
+        padding-top: 30%;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .main-icons h2{
+        text-align: center;
+        margin-left: -80px;
+        font-size: 1em;
+    }
+    .main-icons #icons{
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+    }
   }
+  

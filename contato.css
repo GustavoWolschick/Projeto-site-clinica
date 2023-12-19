@@ -1,9 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    }
+  }
 
-/* Barra de navegação */
 header{
     padding: 40px 20px;
     background-color: rgb(166, 193, 243);
@@ -22,30 +21,15 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding-right: 5%;
-   }
-
-h1{
-    font-size: 2.8em;
-    text-align: center;
-    top: 0;
-    background-color: rgb(166, 193, 243);
-    }
-header a{
-    color: blue;
-    text-decoration: none;
-    display: inline-block;
-    transition: .2s;
 }
-
-header a:hover{
-    color: #000;
-    transform: scale(1.05);
-}
-
 .linha-preta {
     border-top: 5px solid black;
     width: 100%;
   }
+h1{
+    font-size: 2.8em;
+    text-align: center;
+}
 
 h2{
     font-size: 1.3em;
@@ -58,7 +42,6 @@ h2{
 .nav-bar{
     list-style: none;
     display: flex;
-    /* background-color: rgb(166, 193, 243); */
 }
 .nav-bar li{
     padding-left: 10%;
@@ -67,14 +50,14 @@ a{
     text-decoration: none;
     transition: 0.2s;
     cursor: pointer;
+    color: blue;
 }
-  /* estilização do rodapé */
-  .footer {
-    background-color: rgb(6, 25, 90);
-    padding: 55px 20px;
-    text-align: center;
-    color: white;
-   }
+.footer {
+  background-color: rgb(6, 25, 90);
+  padding: 55px 20px;
+  text-align: center;
+  color: white;
+ }
 @media screen and (max-width:600px){
     header{
         padding: 20px 20px;
@@ -125,75 +108,79 @@ a{
     }
 
 }
-/* Conteúdo Principal */
 
-  main{
-    width: 100%;
-    height: 100%;
-    background-color:  white;
+
+
+
+.formulario  .titulo { 
+
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  
   }
-  main h1{
-    text-align: center;
+  
+  .formulario {
+     
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    overflow: hidden;
+    padding: 20px;
+  
+  
   }
-  main p{
-    text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
+  
+  :focus{outline: none;}
+  
+  .label { 
+  
+    float: left; 
+    width: 100%; 
+    margin-bottom: 25px; 
+    position: relative;
+  
+  }
+  
+  .input-bordas{
+    
+    font: 15px/24px "Lato", Arial, sans-serif; 
+    color: #333; 
+    width: 100%; 
+    box-sizing: border-box; 
+    letter-spacing: 1px;
+    border: 1px solid #ccc; 
+    padding: 7px 14px 9px; 
+    transition: 0.4s;
+  
+  }
+  
+  .textarea { resize:none!important; }
+  
+  .button-form { 
+  
+    background-color: #39f;
+    padding: 0.5em 1.3em;
+    color: #fff;
     font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+  
   }
-  main img{
-    padding-left: 15%;
-    padding-right: 15%;
-    width: 1200px;
-    height: 400px;
+  
+  .borda-inversa:hover, .borda-inversa:focus, .borda-inversa:active {
+    
+    background: none;
+    color:#39f; 
+  
   }
 
   @media screen and (max-width:600px){
-    .capa{
-        display: absolute;
-        background-color: white;
-        width: 100%;
-        height: 250px;
-        justify-content: space-around;
-        align-items: center;
-    }
     .mapa{
         padding: 20px 25px;
-    }
-    .capa img{
-        height: 250px;
-        width: 100%;
-        align-items: center;
     }
     .footer{
         padding: 55px 20px;
         text-align: center;
-        margin-top: 7%;
     }
-      h3{
-        font-size: 1em;
-        text-align: center;
-      }
-      main{
-        width: 100%;
-        height: 100%;
-     }
-      main h1{
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-top: 50px;
-        text-align: center;
-      }
-      main p{
-        text-align: center;
-        padding-left: 15%;
-        padding-right: 15%;
-        font-size: 0.8em;
-      }
-      main img{
-        padding-left: 10%;
-        padding-right: 10%;
-        width: 300px;
-        height: 75px;
-      }
-  }
+  } 
